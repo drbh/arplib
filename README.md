@@ -1,17 +1,17 @@
 # arplib
 
-# Build
+### Build
 ```bash
 cargo build --example basic --release
 ```
 
-## Basic Usage
+### Basic Usage
 ```
 # you need sudo to access the network stack
 sudo ./target/release/examples/basic
 ```
 
-# Response
+### Response
 ```rust
 [
     (
